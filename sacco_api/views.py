@@ -10,8 +10,8 @@ from django.db.models import Sum
 
 # Function to send SMS
 def send_sms(phone_number, message):
-    username = 'koechbot'  # Replace with your Africastalking username
-    api_key = '6fba7e43193b22bfd9de4a21fbd7227e8119f0b10dea1f9fd6dc26fe43770fb0'  # Replace with your Africastalking API key
+    username = 'koech'  # Replace with your Africastalking username
+    api_key = '6fba7e43193b22b4a21fbd7227e8119f0b10dea1f9fd6dc26fe43770fb0'  # Replace with your Africastalking API key
     url = 'https://api.africastalking.com/version1/messaging'
     headers = {
         'ApiKey': api_key,
